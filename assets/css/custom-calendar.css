@@ -1,0 +1,227 @@
+/* Calendar header customization */
+.fc-toolbar-title {
+    color: #1E2B37 !important;
+}
+
+/* Calendar header buttons */
+.fc .fc-button-primary {
+    background-color: #1E2B37 !important;
+    border-color: #1E2B37 !important;
+}
+
+/* Today button when active */
+.fc .fc-button-primary:not(:disabled).fc-button-active,
+.fc .fc-button-primary:not(:disabled):active {
+    background-color: #344767 !important;
+    border-color: #344767 !important;
+}
+
+/* Calendar table headers */
+.fc th {
+    background-color: #1E2B37 !important;
+    color: white !important;
+}
+
+/* Calendar cell background */
+.fc td {
+    background-color: white !important;
+}
+
+/* Today's date cell */
+.fc .fc-day-today {
+    background-color: #f8f9fa !important;
+}
+
+/* Remove blue color and underline from date links */
+.fc a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* Additional style for hover state */
+.fc a:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* Style for day number text */
+.fc .fc-daygrid-day-number {
+    color: #344767 !important;
+}
+
+
+/* Change the height of each day cell */
+.fc-daygrid-day {
+    min-height: 50px; /* Adjust this value */
+}
+
+/* Adjust time slots in the time grid view */
+.fc-timegrid-slot {
+    height: 50px !important; /* Adjust this value */
+}
+
+
+
+/* Enhanced modal styles */
+/* #taskDetailsModal .modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+} */
+
+/* More link styling */
+/* .fc-daygrid-more-link {
+    background: #f0f0f0;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin: 2px;
+    color: #666;
+    font-size: 0.85em;
+} */
+
+/* Event styling */
+/* .fc-event {
+    margin: 1px 2px;
+    padding: 2px 4px;
+    border-radius: 4px;
+} */
+
+
+/* Style for the "more" link */
+.fc-daygrid-more-link {
+    color: #666;
+    background: #f8f9fa;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.85em;
+    width: 100%;
+}
+.fc-v-event .fc-event-main {
+    color: #ffffff;
+    height: 100%;
+}
+/* Hover effect for the "more" link */
+.fc-daygrid-more-link:hover {
+    background: #e9ecef;
+    text-decoration: none;
+}
+
+/* Make sure modal content is scrollable */
+/* .modal-body {
+    height: 400px;
+    overflow-y: auto;
+} */
+
+.fc-direction-ltr .fc-daygrid-more-link {
+    margin-top: 3px;
+    padding: 5px 0px;
+}
+
+
+.fc .fc-more-popover .fc-popover-body {
+    max-height: 500px;
+    width: 220px;
+    padding: 10px;
+    overflow-y: scroll;
+    background-color:#F1F1F1;
+}
+
+/* .fc-popover-body::-webkit-scrollbar{
+display: none !important;
+} */
+
+/* .fc-popover-body::-webkit-scrollbar-thumb{
+width: 5px;
+border-radius: 2px;
+background-color: #ff0000;
+} */
+
+
+
+
+.fc-popover-body::-webkit-scrollbar {
+    width: 10px; /* Adjust scrollbar width */
+}
+
+/* Styling the scrollbar thumb */
+.fc-popover-body::-webkit-scrollbar-thumb {
+    background-color: #888; /* Red color */
+    border-radius: 4px;
+    border: 2px solid #fff; /* Optional: adds some spacing around the thumb */
+}
+
+/* Optional: Change scrollbar track */
+.fc-popover-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.fc-theme-standard .fc-popover{
+border-radius: 20px;
+overflow: hidden;
+  background-color: #E9EEF6;
+
+}
+
+.fc-theme-standard .fc-popover-header {
+padding: 5px 5px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+background-color: #F1F1F1 !important;
+ 
+}
+
+.fc-daygrid-dot-event .fc-event-title{
+cursor: pointer;
+}
+.fc-popover-title{
+padding: 5px 10px;
+/* border-radius: 20px; */
+}
+
+.fc-popover-title:hover{
+background-color: #e0e0e0 !important;
+border-radius: 20px;
+}
+
+
+
+.fc-icon-x {
+    position: relative; /* Ensure the parent is positioned for absolute positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;  /* Adjust as per your layout */
+    height: 40px; /* Adjust as per your layout */
+}
+
+.fc-icon-x:hover::before {
+    content: ""; 
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    padding: 10px; /* Adjust for better visibility */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centering */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;  /* Adjust to fit inside the parent */
+    height: 30px; /* Adjust to fit inside the parent */
+}
+
+
+/* ------------------------------------- */
+
+
+
+/* .fc-v-event .fc-event-main-frame {
+
+    height: 50px !important;
+}
+
+.fc-v-event .fc-event-main {
+    color: #ffffff;
+    height: 50px !important;
+} */
