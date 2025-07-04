@@ -5,6 +5,7 @@
 3. Admin create task, assign task, edit task, delete task 
 4. User Task view, change status (Started, Onhold, Completed), add comment 
 5. View others task (Admin) 
+6. Added Calendar feature 
 
 #Pages 
 1 Login (common) 
